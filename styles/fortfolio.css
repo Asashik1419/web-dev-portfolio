@@ -25,6 +25,13 @@
     border-radius: 5px;
 }
 
+/* header */
+.header{
+    background-image: url('../images/developer.png') , url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+
 /* Nav styles */
 nav{
     display: flex;
@@ -49,4 +56,32 @@ nav ul li{
 
 nav li a{
     text-decoration: none;
+}
+
+/* banner styles */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 38px 0 230px;
+}
+
+.banner-content{
+    max-width: 580px;
+}
+.banner-greetings{
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.banner-title{
+    font-weight: bold;
+    font-size: 85px;
+}
+
+.banner-description{
+    font-size: 18px;
+}
+
+.banner-pic{
+    width: 580px;
 }
